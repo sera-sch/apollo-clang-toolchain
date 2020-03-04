@@ -28,7 +28,7 @@ cd clang
 wget https://commondatastorage.googleapis.com/chromium-browser-clang/Linux_x64/clang-321529-2.tgz
 tar xzvf clang-321529-2.tgz
 ```
-- Build with `--crosstool\_top=@apollo\_clang\_toolchain//:toolchain`
+- Build with `--crosstool_top=@apollo_clang_toolchain//clang:toolchain`
 
 References:
 - https://github.com/vsco/bazel-toolchains (Apache 2.0)
