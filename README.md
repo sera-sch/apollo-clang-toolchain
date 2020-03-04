@@ -12,7 +12,7 @@ Bazel toolchain to compile LGSVL apollo 5.0 with clang.
 git_repository(
     name = 'apollo_clang_toolchain',
     remote = 'https://github.com/sera-sch/apollo-clang-toolchain',
-    tag = 'latest',
+    tag = '0.2',
 )
 ```
 - Install GCC 4.9 (avaliable on Ubuntu toolchain PPA):
